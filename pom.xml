@@ -49,8 +49,27 @@
 
 		<rs.version>223</rs.version>
 	</properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>compile</scope>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>net.runelite</groupId>-->
+<!--            <artifactId>runelite-api</artifactId>-->
+<!--            <version>1.10.36-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>net.runelite</groupId>-->
+<!--            <artifactId>client</artifactId>-->
+<!--            <version>1.10.36-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+    </dependencies>
 
-	<licenses>
+    <licenses>
 		<license>
 			<name>2-Clause BSD License</name>
 			<url>https://opensource.org/licenses/BSD-2-Clause</url>

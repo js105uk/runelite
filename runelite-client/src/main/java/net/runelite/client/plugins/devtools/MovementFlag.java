@@ -38,7 +38,7 @@ import java.util.stream.Collectors;
  * @see CollisionDataFlag
  */
 @AllArgsConstructor
-enum MovementFlag
+public enum MovementFlag
 {
 	BLOCK_MOVEMENT_NORTH_WEST(CollisionDataFlag.BLOCK_MOVEMENT_NORTH_WEST),
 	BLOCK_MOVEMENT_NORTH(CollisionDataFlag.BLOCK_MOVEMENT_NORTH),
