@@ -69,6 +69,7 @@ public class ChickenFighterScript extends ScriptBase {
 				}
 			}
 		}
+		Common.sleep(600);
 	}
 
 	private boolean npcFilter(NPC npc) {
